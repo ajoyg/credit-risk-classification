@@ -2,7 +2,7 @@
 Train and evaluate a classification model based on loan risk for a finance company.
 
 ### Overview
-To determine the credit worthiness of a borrower I will evaluate a model based on loan risk. I will use a dataset of historical activity from a peer-to-peer lending service provider for the model evaluation. To achieve this we will split the dataset into a training set (75%) and a test set (25%), train a LogisticRegression model, predict the values from the test set and evaluate the accuracy, precision, recall, false positives, and false negatives of the model. Next, we rebalance the training dataset using the immbalanced-learn library to create equal number of labels and retrain the model. Finally, I will compare the results of the two models and reccommend one of them.
+To determine the credit worthiness of a borrower I will evaluate a model based on loan risk. I will use a dataset of historical activity from a peer-to-peer lending service provider for the model evaluation. To achieve this I will split the dataset into a training set (75%) and a test set (25%), train a LogisticRegression model, predict the values from the test set and evaluate the accuracy, precision, recall, false positives, and false negatives of the model. Next step is to rebalance the training dataset using the immbalanced-learn library to create equal number of labels and retrain the model. Finally, I will compare the results of the two models and reccommend one of them.
 
 ### Results
 1.  The logistic regression model on the original data has an overall accuracy of 99% and a balanced accuracy score of 95.44%. 
